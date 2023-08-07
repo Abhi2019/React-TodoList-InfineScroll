@@ -1,0 +1,47 @@
+.container {
+    width: 70%;
+    height: 100%;
+}
+
+.todoBox {
+    width: 327px;
+    height: 31px;
+    margin-top: 13px;
+    margin-left: 12px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.todoButton {
+    height: 53px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.item {
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    list-style: none;
+    cursor: pointer;
+
+}
+.itemList {
+    margin-top: 7px;
+    display:flex;
+}
+.itemCompleted{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.editbox{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+}
